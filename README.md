@@ -70,7 +70,7 @@ web管理系统：java
 
 #### 安装教程
 登录
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0904/123041_02e64601_4923370.png "登录.png")
+![输入图片说明](https://www.sxlinks.com/static/scada/images/登录.png)
 首页
 ![输入图片说明](%E9%A6%96%E9%A1%B5.png)
 产品中心-产品管理
