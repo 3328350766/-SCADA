@@ -72,23 +72,25 @@ web管理系统：java
 登录
 ![输入图片说明](https://www.sxlinks.com/static/scada/images/登录.png)
 首页
-![输入图片说明](%E9%A6%96%E9%A1%B5.png)
+![输入图片说明](https://www.sxlinks.com/static/scada/images/首页.png)
+首页-普通用户
+
 产品中心-产品管理
-![输入图片说明](%E4%BA%A7%E5%93%81%E7%AE%A1%E7%90%86.png)
+![输入图片说明](https://www.sxlinks.com/static/scada/images/产品中心/产品管理/产品_列表.png)
 产品中心-产品详情
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0904/123117_f2cd1a21_4923370.png "产品详情.png")
+![输入图片说明](https://www.sxlinks.com/static/scada/images/产品中心/产品管理/产品_编辑.png)
 产品中心-产品属性列表
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0904/123132_5d9e128f_4923370.png "产品属性列表.png")
+![输入图片说明](https://www.sxlinks.com/static/scada/images/产品中心/产品管理/产品_属性_列表.png)
 产品中心-产品属性详情
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0904/123140_411a9428_4923370.png "产品属性详情png.png")
+![输入图片说明](https://www.sxlinks.com/static/scada/images/产品中心/产品管理/产品_属性_编辑.png)
 产品中心-设备列表
-![输入图片说明](%E8%AE%BE%E5%A4%87%E5%88%97%E8%A1%A8.png)
+![输入图片说明](https://www.sxlinks.com/static/scada/images/产品中心/设备管理/设备_列表.png)
 产品中心-设备详情
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0904/123324_0ca0f36e_4923370.png "设备详情.png")
+![输入图片说明](https://www.sxlinks.com/static/scada/images/产品中心/设备管理/设备_编辑.png)
 产品中心-设备属性列表
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0904/123336_19047e19_4923370.png "设备属性列表.png")
+![输入图片说明](https://www.sxlinks.com/static/scada/images/产品中心/设备管理/设备_属性_列表.png)
 产品中心-设备属性详情
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0904/123345_11781da8_4923370.png "设备属性详情.png")
+![输入图片说明](https://www.sxlinks.com/static/scada/images/产品中心/设备管理/设备_属性_编辑.png)
 规则管理-启动控制
 ![输入图片说明](%E5%90%AF%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%88%97%E8%A1%A8.png)
 ![输入图片说明](%E5%90%AF%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%BC%96%E8%BE%91.png)
