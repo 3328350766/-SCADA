@@ -1,32 +1,37 @@
 # 四象SCADA系统_SxScada
 
 #### 介绍
-四象SCADA系统是一款可应用于智慧城市、交通、消防、电力、能源、水务、水利、环保、气象、军事等工控物联网数据采集的通用性硬件采集/控制系统。
+四象SCADA系统是一款通用性硬件网关控制系统，可应用于智慧城市、交通、消防、电力、能源、水务、水利、环保、气象、军事等工控物联网数据采集的通用性硬件采集/控制系统。
+
+四象SCADA系统部署在pc电脑、云服务器中，就变成了一个软网关;
+
+四象SCADA系统部署在arm工控板(例如：rk3288、rk3566、rk33399、rk3588)中，就变成了一个功能强大的工业边缘计算网关。
+
 无需用户专业编程，简单在web后台管理系统中设置几步后，即可将复杂多变的各类工控硬件动态接入到四象SCADA系统中，数据中心计算模块会将设备的实时数据进行动态转换并动态以多协议方式输出，将协议还原成真实设备数据（状态、属性），预警功能还可以根据设备的属性实时进行实时报警或者联动控制。
-同时，四象SCADA系统还自带数据中心大屏设计功能，可以任意实现需要显示的大数据大屏展示，可为APP/WEB提供强大的数据支撑。
+同时，四象SCADA系统还自带数据中心大屏设计、单机组态功能，可以任意实现需要显示的大数据大屏展示，可为APP/WEB提供强大的数据支撑。
 四象SCADA系统能完全替代plc，实现数据控制功能，性能是plc处理数据的1000倍以上。
 
-数据输入：
-支持同时输入modbus-rtu、modbus-tcp、opc-ua、mqtt、可动态集成各厂家的web接口.
+**数据输入：**
+支持同时输入各类dtu、modbus-rtu、modbus-tcp、opc-ua、mqtt、各类原生plc协议、可动态集成各厂家的web接口.
 
-数据输出：
+**数据输出：**
 支持同时输出modbus-tcp、opc-ua、web接口、web接口、写入数据库（mysql/mssql/oracle/sybase/progresql/redis/mongo)、写入中间件(kafka,mqtt)、写入索引库(elasticsearch、solr)等.
 
-负载并发：可以每秒管理1-1000万个数据设备的状态和实时数据获取。
+**负载并发：**可以每秒管理1-1000万个数据设备的状态和实时数据获取。
 
-使用：
+**使用：**
 无需编程，在后台管理后台配置接入网关和硬件规则即可。
 
-核心特性
+**核心特性**
 多通道设备接入,无限设备管理
-1.可以直接同时接入modbus-rtu、modbus-tcp、opc-ua、opc-da、mqtt、可动态集成各厂家的web接口,直接同步接入设备的硬件数据，动态还原出设备属性及实时数据;
+1.可以直接同时接入各类dtu、modbus-rtu、modbus-tcp、opc-ua、opc-da、mqtt、各类原生plc协议、可动态集成各厂家的web接口,直接同步接入设备的硬件数据，动态还原出设备属性及实时数据;
 2.可以通过tcp/udp/mqtt/,tls/dtls等方式接入任意报文，通过消息总线方式进入统一集中管理数据数据
 
 强大的规则引擎
 强大的可视化规则编辑功能，根据设置的规则触发相应条件，产生实时设备告警及场景联动控制.
 
-技术栈
-web管理系统：java
+**技术栈**
+web管理系统：java，html+js+css
 数据采集端：java
 
 联系Q:3328350766
@@ -66,8 +71,15 @@ web管理系统：java
 优化代码结构
 增加网关与云平台的安全鉴全功能、优化修改云配置之后无需等待。
 
-#### 软件架构
+增加网关内部指令操作功能
 
+#### 软件架构
+四象工业网关业务架构图
+![输入图片说明](https://www.sxlinks.com/static/scada/images/软件架构/四象工业网关业务架构图.png)
+四象物联设备接线示意图
+![输入图片说明](https://www.sxlinks.com/static/scada/images/软件架构/四象物联设备接线网络示意图.png)
+四象工业网关系统架构图
+![输入图片说明](https://www.sxlinks.com/static/scada/images/软件架构/软网关系统架构图.png)
 
 
 #### 安装教程
@@ -76,6 +88,8 @@ web管理系统：java
 首页
 ![输入图片说明](https://www.sxlinks.com/static/scada/images/首页.png)
 首页-普通用户
+![输入图片说明](https://www.sxlinks.com/static/scada/images/首页_普通用户.png)
+
 
 产品中心-产品管理
 ![输入图片说明](https://www.sxlinks.com/static/scada/images/产品中心/产品管理/产品_列表.png)
@@ -94,16 +108,16 @@ web管理系统：java
 产品中心-设备属性详情
 ![输入图片说明](https://www.sxlinks.com/static/scada/images/产品中心/设备管理/设备_属性_编辑.png)
 规则管理-启动控制
-![输入图片说明](%E5%90%AF%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%88%97%E8%A1%A8.png)
-![输入图片说明](%E5%90%AF%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%BC%96%E8%BE%91.png)
+![输入图片说明](https://www.sxlinks.com/static/scada/images/规则引擎/启动控制/启动控制列表.png)
+![输入图片说明](https://www.sxlinks.com/static/scada/images/规则引擎/启动控制/启动控制编辑.png)
 规则管理-停止控制
-![输入图片说明](%E5%81%9C%E6%AD%A2%E6%8E%A7%E5%88%B6%E5%88%97%E8%A1%A8.png)
-![输入图片说明](%E5%81%9C%E6%AD%A2%E6%8E%A7%E5%88%B6%E7%BC%96%E8%BE%91.png)
+![输入图片说明](https://www.sxlinks.com/static/scada/images/规则引擎/停止控制/停止控制列表.png)
+![输入图片说明](https://www.sxlinks.com/static/scada/images/规则引擎/停止控制/停止控制编辑.png)
 规则管理-变量管理
-![输入图片说明](%E5%8F%98%E9%87%8F%E7%AE%A1%E7%90%86%E5%88%97%E8%A1%A8.png)
-![输入图片说明](%E5%8F%98%E9%87%8F%E7%AE%A1%E7%90%86%E7%BC%96%E8%BE%91.png)
+![输入图片说明](https://www.sxlinks.com/static/scada/images/规则引擎/变量管理/变量管理列表.png)
+![输入图片说明](https://www.sxlinks.com/static/scada/images/规则引擎/变量管理/变量管理编辑.png)
 web接口
-![输入图片说明](%E6%8E%A5%E5%8F%A3%E5%88%97%E8%A1%A8.png)
+![输入图片说明](https://www.sxlinks.com/static/scada/images/web接口/接口列表.png)
 
 #### 使用说明
 
@@ -117,4 +131,3 @@ web接口
 2.  新建 Feat_xxx 分支
 3.  提交代码
 4.  新建 Pull Request
-
